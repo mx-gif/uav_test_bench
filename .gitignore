@@ -1,0 +1,84 @@
+# ==========================
+# Keil MDK build output
+# ==========================
+
+Objects/
+Listings/
+
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.map
+*.elf
+*.d
+*.crf
+*.dep
+*.lnp
+
+
+# ==========================
+# Keil temporary files
+# ==========================
+
+*.bak
+*.tmp
+*.iex
+*.htm
+
+
+# ==========================
+# STM32CubeMX temporary files
+# ==========================
+
+*.ioc.lock
+
+
+# ==========================
+# IDE files
+# ==========================
+
+.vscode/
+
+# ==========================
+# OS files
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Keil MDK IDE files
+# ==========================
+
+*.uvguix.*
+*.uvoptx
+*.uvprojx.user
+
+*.scvd
+*.dbgconf
+
+*.lst
+
+
+# ==========================
+# CMSIS unnecessary files
+# ==========================
+
+Drivers/CMSIS/DSP/DSP_Lib_TestSuite/
+Drivers/CMSIS/DSP/Examples/
+Drivers/CMSIS/NN/Examples/
+Drivers/CMSIS/NN/NN_Lib_Tests/
+
+# Keil generated
+MDK-ARM/RTE/
+*.sct
+*.uvguix.*
+*.uvoptx
+
+
+# CMSIS optional libraries
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
